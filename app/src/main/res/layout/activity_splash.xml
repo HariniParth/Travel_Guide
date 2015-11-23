@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_first"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover "
+        android:id="@+id/text_1"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="#fffff4ed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Most Popular"
+        android:id="@+id/text_2"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_below="@+id/text_1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffff4ed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tourist"
+        android:id="@+id/text_3"
+        android:textSize="35dp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:layout_marginBottom="79dp"
+        android:textColor="#fffff4ed"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/text_2"
+        android:layout_alignEnd="@+id/text_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destinations"
+        android:id="@+id/text_4"
+        android:textSize="35dp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:layout_marginTop="44dp"
+        android:layout_alignTop="@+id/text_3"
+        android:layout_alignRight="@+id/text_3"
+        android:layout_alignEnd="@+id/text_3"
+        android:textColor="#fffff4ed" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_1"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_2"
+        android:src="@drawable/snow_1"
+        android:layout_alignBottom="@+id/snow_1"
+        android:layout_toEndOf="@+id/snow_1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_3"
+        android:src="@drawable/snow_1"
+        android:layout_alignBottom="@+id/snow_2"
+        android:layout_toEndOf="@+id/snow_2"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_4"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/snow_3"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_5"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_6"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_7"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_7"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_8"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_8"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_9"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_9"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

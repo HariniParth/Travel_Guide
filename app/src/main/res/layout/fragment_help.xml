@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_help"
+    tools:context="com.example.harini.touristspots2.HelpFragment">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_marginTop="46dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="HELP"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="42dp"
+        android:gravity="left"
+        android:text="
+        Select from a list of the most popular tourist destination cities.\n\n
+        View the major tourist attractions in the selected city.\n\n
+        Click on the city to get the map view, Wikipedia link and the gallery view.\n\n
+        Mark places as 'Favorites' and 'Viewed' to enable quick navigation."
+        android:layout_below="@+id/label"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_1"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_2"
+        android:src="@drawable/snow_1"
+        android:layout_alignBottom="@+id/snow_1"
+        android:layout_toEndOf="@+id/snow_1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_3"
+        android:src="@drawable/snow_1"
+        android:layout_alignBottom="@+id/snow_2"
+        android:layout_toEndOf="@+id/snow_2"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_4"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/snow_3"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_5"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_6"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_7"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_7"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_8"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_8"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_9"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_9"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

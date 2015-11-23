@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_help"
+    tools:context="com.example.harini.touristspots2.HomeFragment">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="TOURIST SPOTS"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_1"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_2"
+        android:src="@drawable/snow_1"
+        android:layout_alignBottom="@+id/snow_1"
+        android:layout_toEndOf="@+id/snow_1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_3"
+        android:src="@drawable/snow_1"
+        android:layout_alignBottom="@+id/snow_2"
+        android:layout_toEndOf="@+id/snow_2"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_4"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/snow_3"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_5"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_6"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_7"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_7"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_8"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_8"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/snow_9"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/snow_9"
+        android:src="@drawable/snow_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>
